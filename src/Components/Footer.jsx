@@ -1,12 +1,6 @@
-/**
- * Footer component
- *
- * Displays avenues to contact you.
- * Contact information is passed in from the App component that
- * renders the Footer.
- *
- * If a social value has an empty string it will not be displayed.
- */
+
+
+// export default Footer;
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -50,7 +44,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -71,13 +65,13 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={gitHub} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/${instagram}`}
+            href={instagram}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -86,7 +80,7 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={linkedIn}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,19 +93,19 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={twitter} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
-        {youTube && (
+        {/* {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={youTube}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
-        )}
+        )} */}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
@@ -135,7 +129,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;

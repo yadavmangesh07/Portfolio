@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Newzify-A News Web App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This React.js and Vite-based News Web App is a dynamic tool designed to keep you updated with the latest news in real-time. By fetching and displaying news articles from a reliable API, this project provides a modern, responsive interface for browsing news efficiently.",
+    url: "https://news-web-app-eqo2.onrender.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Website Developed For SDG",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Biofuel promotes environmental sustainability by converting plastics into biofuel. Developed with Vite React, Node.js, and MongoDB, it offers a user-friendly platform hosted on Render.",
+    url: "https://sdg-wk1t.onrender.com/",
   },
   {
-    title: "My Resume Site",
+    title: "College Management System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "The College Management System is a Java-based web application designed to streamline administrative and academic operations in colleges. It supports CRUD operations, enabling administrators, faculty, and students to manage details, view examination schedules, pay fees, and apply for leave through an intuitive and user-friendly interface.",
+    url: "https://github.com/yadavmangesh07/Advance-Java-Project",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "TextiFy-A Text Utility Tool",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Welcome to our Text Utility Web App! Simplify text manipulation tasks with ease. Count words, remove spaces, convert text case, and more with a user-friendly interface. Ideal for writers, students, and professionals.",
+    url: "https://text-utility-web-app.onrender.com/",
   },
 ];
 

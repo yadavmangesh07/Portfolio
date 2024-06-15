@@ -1,3 +1,4 @@
+// 
 /**
  * Application component
  *
@@ -16,7 +17,7 @@ import "./styles.css";
 
 /**
  * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
+ * only need to update these here, and values are passed as properties to the
  * components that need that information.
  *
  * Update the values below with your information.
@@ -24,15 +25,15 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  name: "Mangesh Yadav",
+  title: "FullStack Web Developer",
+  email: "mangeshyadav8736@gmail.com",
+  gitHub: "https://github.com/yadavmangesh07",
+  instagram: "https://www.instagram.com/_____mangesh______07",
+  linkedIn: "https://www.linkedin.com/in/mangesh-yadav-65a437237",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "https://x.com/@__Mangesh",
+  youTube: "https://www.youtube.com/c/Code",
 };
 
 const primaryColor = "#4E567E";
